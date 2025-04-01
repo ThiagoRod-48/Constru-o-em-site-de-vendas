@@ -1,0 +1,41 @@
+@mixin banner($cor, $url-image){
+  background-color: $cor;
+  background-image: url($url-image);
+}
+
+
+.banner-statico{
+  margin-top: 20px;
+  .banner-statico-12x{
+    @include banner($rosa, "../images/parcele-em-12x.jpg")
+  }
+  .banner-statico-todo-br{
+    @include banner($roxo, "../images/entrega-para-todo-brasil.jpg")
+  }
+}
+
+.banner-statico-12x,
+.banner-statico-todo-br{
+  display: flex;
+  flex-direction: row;
+  background-size:cover;
+  height:105px;
+  padding: 20px 60px ;
+  color: $branca;
+
+  svg, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 23px;
+    line-height: 110%;
+    margin-left: 20px;
+    strong{
+      font-weight: bold;
+    }
+  }
+}
+

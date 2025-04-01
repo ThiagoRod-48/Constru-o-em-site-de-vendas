@@ -1,5 +1,21 @@
+//Font
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+//Variaveis
+@import "variavel";
+
+
+//Component
+@import "header";
+@import "nav-produtos";
+@import "banner-statico";
+@import "produtos";
+
+//Framework
 @import "bootstrap";
+
+//Comfig
+@import "config";
+
 
 
