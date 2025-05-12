@@ -10,12 +10,20 @@
 @import "nav-produtos";
 @import "banner-statico";
 @import "produtos";
+@import "produtos-compra";
+@import "footer";
+@import "responsivo";
 
 //Framework
 @import "bootstrap";
 
+//Component Bootstrap
+@import "breadcrumb";
+
 //Comfig
 @import "config";
+
+
 
 
 
